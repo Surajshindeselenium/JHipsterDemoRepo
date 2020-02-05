@@ -1,0 +1,784 @@
+<Root type="OR" ref="javaspringbboot_CITSProject">
+  <Page title="Welcome, Java Hipster!" ref="Welcome_">
+    <ObjectGroup ref="Welcome, Java Hipster!">
+      <Object frame="" ref="Welcome, Java Hipster!">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Welcome, Java Hipster!'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-home/div/div[2]/h1" ref="xpath" pref="5"/>
+        <Property value="display-4" ref="class" pref="6"/>
+        <Property value="h1.display-4" ref="css" pref="7"/>
+        <Property value="h1" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="This is your homepage">
+      <Object frame="" ref="This is your homepage">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='This is your homepage']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/jhi-main/div[2]/div/jhi-home/div/div[2]/p)[1]" ref="xpath" pref="5"/>
+        <Property value="lead" ref="class" pref="6"/>
+        <Property value="p.lead" ref="css" pref="7"/>
+        <Property value="p" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="sign in">
+      <Object frame="" ref="sign in">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="sign in" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'sign in')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/jhi-main/div[2]/div/jhi-home/div/div[2]/div/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="alert-link" ref="class" pref="6"/>
+        <Property value="html.no-js > body > jhi-main > div.container-fluid > div.card.jh-card > jhi-home > div.row > div.col-md-9 > div > div.alert.alert-warning > a.alert-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Register a new account">
+      <Object frame="" ref="Register a new account">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Register a new account" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Register a new account')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-home/div/div[2]/div/div[2]/a" ref="xpath" pref="5"/>
+        <Property value="alert-link" ref="class" pref="6"/>
+        <Property value="html.no-js > body > jhi-main > div.container-fluid > div.card.jh-card > jhi-home > div.row > div.col-md-9 > div > div.alert.alert-warning > a.alert-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="If you have any question on JH">
+      <Object frame="" ref="If you have any question on JH">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='If you have any question on JHipster:']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-home/div/div[2]/p[2]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.no-js > body > jhi-main > div.container-fluid > div.card.jh-card > jhi-home > div.row > div.col-md-9 > p:nth-of-type(1)" ref="css" pref="7"/>
+        <Property value="p" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sign in1">
+      <Object frame="" ref="Sign in1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Sign in'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/ngb-modal-window/div/div/jhi-login-modal/div/h4" ref="xpath" pref="5"/>
+        <Property value="modal-title" ref="class" pref="6"/>
+        <Property value="h4.modal-title" ref="css" pref="7"/>
+        <Property value="h4" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login">
+      <Object frame="" ref="Login">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Login']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/ngb-modal-window/div/div/jhi-login-modal/div[2]/div/div[2]/form/div/label)[1]" ref="xpath" pref="5"/>
+        <Property value="username-label" ref="class" pref="6"/>
+        <Property value="label.username-label" ref="css" pref="7"/>
+        <Property value="label" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login1">
+      <Object frame="" ref="Login1">
+        <Property value="username" ref="name" pref="1"/>
+        <Property value="username" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Your username']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/ngb-modal-window/div/div/jhi-login-modal/div[2]/div/div[2]/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control ng-pristine ng-valid ng-touched" ref="class" pref="6"/>
+        <Property value="#username" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login2">
+      <Object frame="" ref="Login2">
+        <Property value="username" ref="name" pref="1"/>
+        <Property value="username" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Your username']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/ngb-modal-window/div/div/jhi-login-modal/div[2]/div/div[2]/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control ng-valid ng-touched ng-dirty" ref="class" pref="6"/>
+        <Property value="#username" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/ngb-modal-window/div/div/jhi-login-modal/div[2]/div/div[2]/form/div[2]/label" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.no-js > body.modal-open > ngb-modal-window.modal.fade show d-block > div.modal-dialog > div.modal-content > jhi-login-modal > div.modal-body > div.row.justify-content-center > div.col-md-8 > form.form.ng-valid ng-touched ng-dirty > div.form-group > label" ref="css" pref="7"/>
+        <Property value="label" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password1">
+      <Object frame="" ref="Password1">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="password" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Your password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/ngb-modal-window/div/div/jhi-login-modal/div[2]/div/div[2]/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-untouched ng-pristine ng-valid" ref="class" pref="6"/>
+        <Property value="#password" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password2">
+      <Object frame="" ref="Password2">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="password" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Your password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/ngb-modal-window/div/div/jhi-login-modal/div[2]/div/div[2]/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-untouched ng-valid ng-dirty" ref="class" pref="6"/>
+        <Property value="#password" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sign in2">
+      <Object frame="" ref="Sign in2">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@type='submit']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/ngb-modal-window/div/div/jhi-login-modal/div[2]/div/div[2]/form/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary" ref="class" pref="6"/>
+        <Property value="button.btn.btn-primary" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Failed to sign in!">
+      <Object frame="" ref="Failed to sign in!">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Failed to sign in!']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/ngb-modal-window/div/div/jhi-login-modal/div[2]/div/div/div/strong" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="strong" ref="css" pref="7"/>
+        <Property value="strong" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Did you forget your password?">
+      <Object frame="" ref="Did you forget your password?">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="exact:Did you forget your password?" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Did you forget your password?')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/ngb-modal-window/div/div/jhi-login-modal/div[2]/div/div[2]/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="alert-link" ref="class" pref="6"/>
+        <Property value="html.no-js > body.modal-open > ngb-modal-window.modal.fade show d-block > div.modal-dialog > div.modal-content > jhi-login-modal > div.modal-body > div.row.justify-content-center > div.col-md-8 > div.alert.alert-warning > a.alert-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Register a new account1">
+      <Object frame="" ref="Register a new account1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Register a new account" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Register a new account')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/ngb-modal-window/div/div/jhi-login-modal/div[2]/div/div[2]/div[2]/a" ref="xpath" pref="5"/>
+        <Property value="alert-link" ref="class" pref="6"/>
+        <Property value="html.no-js > body.modal-open > ngb-modal-window.modal.fade show d-block > div.modal-dialog > div.modal-content > jhi-login-modal > div.modal-body > div.row.justify-content-center > div.col-md-8 > div.alert.alert-warning > a.alert-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Object">
+      <Object frame="" ref="Object">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[2]/ul" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-home/div/div[2]/ul" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="div.col-md-9 > ul" ref="css" pref="7"/>
+        <Property value="ul" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="JHipster homepage">
+      <Object frame="" ref="JHipster homepage">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="JHipster homepage" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'JHipster homepage')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/jhi-main/div[2]/div/jhi-home/div/div[2]/ul/li/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.no-js > body > jhi-main > div.container-fluid > div.card.jh-card > jhi-home > div.row > div.col-md-9 > ul > li > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="JHipster on Stack Overflow">
+      <Object frame="" ref="JHipster on Stack Overflow">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="JHipster on Stack Overflow" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'JHipster on Stack Overflow')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-home/div/div[2]/ul/li[2]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.no-js > body > jhi-main > div.container-fluid > div.card.jh-card > jhi-home > div.row > div.col-md-9 > ul > li:nth-of-type(1) > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="JHipster bug tracker">
+      <Object frame="" ref="JHipster bug tracker">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="JHipster bug tracker" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'JHipster bug tracker')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-home/div/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.no-js > body > jhi-main > div.container-fluid > div.card.jh-card > jhi-home > div.row > div.col-md-9 > ul > li:nth-of-type(2) > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="JHipster public chat room">
+      <Object frame="" ref="JHipster public chat room">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="JHipster public chat room" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'JHipster public chat room')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-home/div/div[2]/ul/li[4]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.no-js > body > jhi-main > div.container-fluid > div.card.jh-card > jhi-home > div.row > div.col-md-9 > ul > li:nth-of-type(3) > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="follow @java_hipster on Twitte">
+      <Object frame="" ref="follow @java_hipster on Twitte">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="follow @java_hipster on Twitter" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'follow @java_hipster on Twitter')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-home/div/div[2]/ul/li[5]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.no-js > body > jhi-main > div.container-fluid > div.card.jh-card > jhi-home > div.row > div.col-md-9 > ul > li:nth-of-type(4) > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Home">
+      <Object frame="" ref="Home">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Home']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/jhi-main/div/jhi-navbar/nav/div/ul/li/a/span/span)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="li.nav-item.active > a.nav-link > span > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Account">
+      <Object frame="" ref="Account">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Account']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div/jhi-navbar/nav/div/ul/li[2]/a/span/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#account-menu > span > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="You don't have an account yet?">
+      <Object frame="" ref="You don't have an account yet?">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[2]/span" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-home/div/div[2]/div/div[2]/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.no-js > body > jhi-main > div.container-fluid > div.card.jh-card > jhi-home > div.row > div.col-md-9 > div > div.alert.alert-warning > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Registration" ref="Registration">
+    <ObjectGroup ref="Registration">
+      <Object frame="" ref="Registration">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Registration'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div/div/h1" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="h1" ref="css" pref="7"/>
+        <Property value="h1" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Username">
+      <Object frame="" ref="Username">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Username']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div/label)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control-label" ref="class" pref="6"/>
+        <Property value="html.no-js > body > jhi-main > div.container-fluid > div.card.jh-card > jhi-register > div > div.row.justify-content-center > div.col-md-8 > form[name=&quot;form&quot;] > div.form-group > label.form-control-label" ref="css" pref="7"/>
+        <Property value="label" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Username1">
+      <Object frame="" ref="Username1">
+        <Property value="login" ref="name" pref="1"/>
+        <Property value="login" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Your username']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control ng-pristine ng-invalid ng-touched" ref="class" pref="6"/>
+        <Property value="div.form-group > #login" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Username2">
+      <Object frame="" ref="Username2">
+        <Property value="login" ref="name" pref="1"/>
+        <Property value="login" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Your username']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control ng-touched ng-dirty ng-valid" ref="class" pref="6"/>
+        <Property value="div.form-group > #login" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Email">
+      <Object frame="" ref="Email">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Email']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div[2]/label" ref="xpath" pref="5"/>
+        <Property value="form-control-label" ref="class" pref="6"/>
+        <Property value="html.no-js > body > jhi-main > div.container-fluid > div.card.jh-card > jhi-register > div > div.row.justify-content-center > div.col-md-8 > form[name=&quot;form&quot;] > div.form-group > label.form-control-label" ref="css" pref="7"/>
+        <Property value="label" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Email1">
+      <Object frame="" ref="Email1">
+        <Property value="email" ref="name" pref="1"/>
+        <Property value="email" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Your email']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-untouched ng-pristine ng-invalid" ref="class" pref="6"/>
+        <Property value="#email" ref="css" pref="7"/>
+        <Property value="email" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Email2">
+      <Object frame="" ref="Email2">
+        <Property value="email" ref="name" pref="1"/>
+        <Property value="email" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Your email']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-untouched ng-invalid ng-dirty" ref="class" pref="6"/>
+        <Property value="#email" ref="css" pref="7"/>
+        <Property value="email" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="New password">
+      <Object frame="" ref="New password">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="password" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='New password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div[3]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-untouched ng-pristine ng-invalid" ref="class" pref="6"/>
+        <Property value="#password" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="New password1">
+      <Object frame="" ref="New password1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='New password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div[3]/label" ref="xpath" pref="5"/>
+        <Property value="form-control-label" ref="class" pref="6"/>
+        <Property value="html.no-js > body > jhi-main > div.container-fluid > div.card.jh-card > jhi-register > div > div.row.justify-content-center > div.col-md-8 > form[name=&quot;form&quot;] > div.form-group > label.form-control-label" ref="css" pref="7"/>
+        <Property value="label" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="New password2">
+      <Object frame="" ref="New password2">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="password" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='New password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div[3]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-pristine ng-invalid ng-touched" ref="class" pref="6"/>
+        <Property value="#password" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="New password3">
+      <Object frame="" ref="New password3">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="password" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='New password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div[3]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-touched ng-dirty ng-valid" ref="class" pref="6"/>
+        <Property value="#password" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Email3">
+      <Object frame="" ref="Email3">
+        <Property value="email" ref="name" pref="1"/>
+        <Property value="email" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Your email']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-invalid ng-dirty ng-touched" ref="class" pref="6"/>
+        <Property value="#email" ref="css" pref="7"/>
+        <Property value="email" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Email4">
+      <Object frame="" ref="Email4">
+        <Property value="email" ref="name" pref="1"/>
+        <Property value="email" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Your email']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-dirty ng-touched ng-valid" ref="class" pref="6"/>
+        <Property value="#email" ref="css" pref="7"/>
+        <Property value="email" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="New password confirmation">
+      <Object frame="" ref="New password confirmation">
+        <Property value="confirmPassword" ref="name" pref="1"/>
+        <Property value="confirmPassword" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Confirm the new password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div[4]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-untouched ng-pristine ng-invalid" ref="class" pref="6"/>
+        <Property value="#confirmPassword" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="New password confirmation1">
+      <Object frame="" ref="New password confirmation1">
+        <Property value="confirmPassword" ref="name" pref="1"/>
+        <Property value="confirmPassword" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Confirm the new password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/div[4]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-untouched ng-dirty ng-valid" ref="class" pref="6"/>
+        <Property value="#confirmPassword" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Register">
+      <Object frame="" ref="Register">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@type='submit']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div[2]/div/form/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary" ref="class" pref="6"/>
+        <Property value="button.btn.btn-primary" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Registration failed!">
+      <Object frame="" ref="Registration failed!">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Registration failed!']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/jhi-main/div[2]/div/jhi-register/div/div/div/div/strong" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="strong" ref="css" pref="7"/>
+        <Property value="strong" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="JHipster - Generate your Spring Boot + Angular/React applications!" ref="JHipster">
+    <ObjectGroup ref="Sponsors">
+      <Object frame="" ref="Sponsors">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Sponsors" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Sponsors')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/nav/div/ul/li/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > body.flat-blue > div.app-container.home > div.row.content-container > nav.navbar.navbar-inverse navbar-fixed-top navbar-top > div.container-fluid > ul.nav.navbar-nav navbar-right > li.page-scroll > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="About">
+      <Object frame="" ref="About">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="About" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'About')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/nav/div/ul/li[2]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > body.flat-blue > div.app-container.home > div.row.content-container > nav.navbar.navbar-inverse navbar-fixed-top navbar-top > div.container-fluid > ul.nav.navbar-nav navbar-right > li.page-scroll > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Learn">
+      <Object frame="" ref="Learn">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Learn" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Learn')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/nav/div/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > body.flat-blue > div.app-container.home > div.row.content-container > nav.navbar.navbar-inverse navbar-fixed-top navbar-top > div.container-fluid > ul.nav.navbar-nav navbar-right > li.page-scroll > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Options">
+      <Object frame="" ref="Options">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Options" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Options')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/nav/div/ul/li[4]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > body.flat-blue > div.app-container.home > div.row.content-container > nav.navbar.navbar-inverse navbar-fixed-top navbar-top > div.container-fluid > ul.nav.navbar-nav navbar-right > li.page-scroll > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Modules &amp; Blueprints">
+      <Object frame="" ref="Modules &amp; Blueprints">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Modules &amp; Blueprints" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Modules &amp; Blueprints')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/nav/div/ul/li[5]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > body.flat-blue > div.app-container.home > div.row.content-container > nav.navbar.navbar-inverse navbar-fixed-top navbar-top > div.container-fluid > ul.nav.navbar-nav navbar-right > li.page-scroll > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Github">
+      <Object frame="" ref="Github">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Github" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Github')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/nav/div/ul/li[6]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > body.flat-blue > div.app-container.home > div.row.content-container > nav.navbar.navbar-inverse navbar-fixed-top navbar-top > div.container-fluid > ul.nav.navbar-nav navbar-right > li:nth-of-type(5) > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Object">
+      <Object frame="" ref="Object">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//img[contains(@src,'https://www.jhipster.tech/images/logo/logo-jhipster.svg')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/nav/div/div/a/div/img" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="div.icon > img" ref="css" pref="7"/>
+        <Property value="img" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="JHipster">
+      <Object frame="" ref="JHipster">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='JHipster']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/nav/div/div/a/div[2]" ref="xpath" pref="5"/>
+        <Property value="title brand" ref="class" pref="6"/>
+        <Property value="div.title.brand" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="icon fa fa-home">
+      <Object frame="" ref="icon fa fa-home">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div/div/div/nav/div/ul/li/a/span" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div/nav/div/ul/li/a/span)[1]" ref="xpath" pref="5"/>
+        <Property value="icon fa fa-home" ref="class" pref="6"/>
+        <Property value="html > body.flat-blue > div.app-container.home > div.row.content-container > div.side-menu.sidebar-inverse > nav.navbar.navbar-default > div.side-menu-container > ul.nav.navbar-nav > li > a > span.icon.fa fa-home" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Greetings, Java Hipster!">
+      <Object frame="" ref="Greetings, Java Hipster!">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Greetings, Java Hipster!']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div[2]/div/div/header/div/div/div/div[2]/span)[1]" ref="xpath" pref="5"/>
+        <Property value="brand" ref="class" pref="6"/>
+        <Property value="span.brand" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="icon fa fa-file-text-o">
+      <Object frame="" ref="icon fa fa-file-text-o">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div/div/div/nav/div/ul/li[2]/a/span" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div/nav/div/ul/li[2]/a/span)[1]" ref="xpath" pref="5"/>
+        <Property value="icon fa fa-file-text-o" ref="class" pref="6"/>
+        <Property value="html > body.flat-blue > div.app-container.home > div.row.content-container > div.side-menu.sidebar-inverse > nav.navbar.navbar-default > div.side-menu-container > ul.nav.navbar-nav > li:nth-of-type(1) > a > span.icon.fa fa-file-text-o" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Issues · jhipster/generator-jhipster · GitHub" ref="Issues">
+    <ObjectGroup ref="Sign in">
+      <Object frame="" ref="Sign in">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Sign in" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Sign in')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/header/div/div[2]/div[2]/a)[1]" ref="xpath" pref="5"/>
+        <Property value="HeaderMenu-link no-underline mr-3" ref="class" pref="6"/>
+        <Property value="html > body.logged-out.env-production min-width-lg intent-mouse > div.position-relative.js-header-wrapper > header.Header-old.header-logged-out position-relative f4 py-2 > div.container-lg.d-flex px-3 > div.HeaderMenu.HeaderMenu--logged-out d-flex flex-justify-between flex-items-center flex-auto > div.d-flex.flex-items-center px-0 text-center text-left > a.HeaderMenu-link.no-underline mr-3" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sign up">
+      <Object frame="" ref="Sign up">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Sign up" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Sign up')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/header/div/div[2]/div[2]/a[2]" ref="xpath" pref="5"/>
+        <Property value="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" ref="class" pref="6"/>
+        <Property value="html > body.logged-out.env-production min-width-lg intent-mouse > div.position-relative.js-header-wrapper > header.Header-old.header-logged-out position-relative f4 py-2 > div.container-lg.d-flex px-3 > div.HeaderMenu.HeaderMenu--logged-out d-flex flex-justify-between flex-items-center flex-auto > div.d-flex.flex-items-center px-0 text-center text-left > a.HeaderMenu-link.d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="'jhipster' tag wiki - Stack Overflow" ref="_jhipster_">
+    <ObjectGroup ref="Stack Overflow">
+      <Object frame="" ref="Stack Overflow">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Stack Overflow'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/header/div/div/a[2]/span" ref="xpath" pref="5"/>
+        <Property value="-img" ref="class" pref="6"/>
+        <Property value="span.-img" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="About">
+      <Object frame="" ref="About">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='About'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/div/div/div/h1" ref="xpath" pref="5"/>
+        <Property value="grid--cell fs-headline1 mb0 mr8" ref="class" pref="6"/>
+        <Property value="html > body.tags-page.unified-theme > div.container > #content > #mainbar > div.grid.mb24 > div.grid.ai-center fl1 > h1.grid--cell.fs-headline1 mb0 mr8" ref="css" pref="7"/>
+        <Property value="h1" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Log in">
+      <Object frame="" ref="Log in">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Log in" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Log in')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/header/div/ol[2]/li[2]/a)[1]" ref="xpath" pref="5"/>
+        <Property value="login-link s-btn s-btn__filled py8 js-gps-track" ref="class" pref="6"/>
+        <Property value="html > body.tags-page.unified-theme > header.top-bar.js-top-bar top-bar__network _fixed > div.wmx12.mx-auto grid ai-center h100 > ol.overflow-x-auto.ml-auto -secondary grid ai-center list-reset h100 user-logged-out > li.-ctas > a.login-link.s-btn s-btn__filled py8 js-gps-track" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sign up">
+      <Object frame="" ref="Sign up">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Sign up" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Sign up')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/header/div/ol[2]/li[2]/a[2]" ref="xpath" pref="5"/>
+        <Property value="login-link s-btn s-btn__primary py8" ref="class" pref="6"/>
+        <Property value="html > body.tags-page.unified-theme > header.top-bar.js-top-bar top-bar__network _fixed > div.wmx12.mx-auto grid ai-center h100 > ol.overflow-x-auto.ml-auto -secondary grid ai-center list-reset h100 user-logged-out > li.-ctas > a.login-link.s-btn s-btn__primary py8" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="jhipster/generator-jhipster - Gitter" ref="jhipster_generator-jhipster">
+    <ObjectGroup ref="jhipster/generator-jhipster">
+      <Object frame="" ref="jhipster/generator-jhipster">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="jhipster/generator-jhipster" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'jhipster/generator-jhipster')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/div[2]/header/div/div[3]/div/h1/a" ref="xpath" pref="5"/>
+        <Property value="chat-header__title" ref="class" pref="6"/>
+        <Property value="a.chat-header__title" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref=".logo-white-lettering{ fill:#F">
+      <Object frame="" ref=".logo-white-lettering{ fill:#F">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="Layer_1" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div/div/header/section[2]/span/svg" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/header/section[2]/span/svg" ref="xpath" pref="5"/>
+        <Property value="[object SVGAnimatedString]" ref="class" pref="6"/>
+        <Property value="#Layer_1" ref="css" pref="7"/>
+        <Property value="svg" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Twitter / Account Suspended" ref="Twitter">
+    <ObjectGroup ref="Home">
+      <Object frame="" ref="Home">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Home'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/div[2]/div/div/ul/li/a/span[2]" ref="xpath" pref="5"/>
+        <Property value="text" ref="class" pref="6"/>
+        <Property value="html > body.three-col.logged-out ms-windows supports-drag-and-drop > #doc > div.topbar.js-topbar > div.global-nav.global-nav--newLoggedOut > div.global-nav-inner > div.container > #global-actions > #global-nav-home > a.js-nav.js-tooltip js-dynamic-tooltip > span.text" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="About">
+      <Object frame="" ref="About">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='About']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/div[2]/div/div/ul/li[2]/a/span" ref="xpath" pref="5"/>
+        <Property value="text" ref="class" pref="6"/>
+        <Property value="#global-nav-about > a.js-tooltip.js-dynamic-tooltip > span.text" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Log in">
+      <Object frame="" ref="Log in">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Log in']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div/div[2]/div/div/div/ul[2]/li/a/span)[1]" ref="xpath" pref="5"/>
+        <Property value="emphasize" ref="class" pref="6"/>
+        <Property value="span.emphasize" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

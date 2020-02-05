@@ -1,0 +1,27 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_241
+java.home            : C:\Program Files\Java\jre1.8.0_241
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Jan 23 17:32:35 IST 2020
+Loading Browser Profile
+Loading RunManager
+[Scenario:Secnario2_JHipsterLinks] [TestCase: TestCase1_JHipsterHomepage] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Run Finished on Thu Jan 23 17:32:36 IST 2020
+-----------------------------------------------------
+ExecutionDate        : 23-jan-2020 17-32-33
+Executed TestCases   : 0
+Passed TestCases     : 0
+Failed TestCases     : 0
+Time Taken           : 00:00:00
+ReportPath           : file:///H:\CITS\cognizant-intelligent-test-scripter-1.2\Projects\javaspringbboot_CITSProject\Results\TestDesign\Secnario2_JHipsterLinks\TestCase1_JHipsterHomepage\23-jan-2020 17-32-33\summary.html
+-----------------------------------------------------

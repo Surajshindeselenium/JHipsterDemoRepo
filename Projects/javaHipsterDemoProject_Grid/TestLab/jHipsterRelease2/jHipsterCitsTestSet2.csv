@@ -1,0 +1,11 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,Scenario1_LaunchRegisterSignin,TestCase1_LaunchURL,Single,Failed,Firefox,Default,Any
+true,Scenario1_LaunchRegisterSignin,TestCase2_RegisterNewAccount,Single,Failed,Firefox,Default,Any
+true,Scenario1_LaunchRegisterSignin,TestCase3_SignIn,Single,Failed,Firefox,Default,Any
+true,Scenario1_LaunchRegisterSignin,TestCase4_LinksVerify,Single,Failed,Firefox,Default,Any
+true,Secnario2_JHipsterLinks,TestCase1_JHipsterHomepage,Single,Failed,Firefox,Default,Any
+true,Secnario2_JHipsterLinks,TestCase2_JHipsterHomepageTabs,Single,Failed,Firefox,Default,Any
+true,Secnario2_JHipsterLinks,TestCase3_JHipsterBugTracker,Single,Failed,Chrome,Default,Any
+true,Secnario2_JHipsterLinks,TestCase4_JHipsterStackOverflow,Single,Failed,Chrome,Default,Any
+true,Secnario2_JHipsterLinks,TestCase5_JHipsterPublicChat,Single,Failed,Chrome,Default,Any
+true,Secnario2_JHipsterLinks,TestCase6_JHipsterFollow,Single,Failed,Chrome,Default,Any

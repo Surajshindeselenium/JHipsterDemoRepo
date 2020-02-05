@@ -1,0 +1,11 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://javaspringbootinsightscits.azurewebsites.net/,,
+2,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+3,Browser,Maximize the browser.,maximize,,,
+4,"Welcome, Java Hipster!",Assert if [<Object>]'s Text Equals [<Data>],assertElementTextEquals,"@Welcome, Java Hipster!",,Welcome_
+5,You don't have an account yet?,Assert if [<Object>]'s Text StartsWith [<Data>],assertElementTextStartsWith,@You don't have an account yet?,,Welcome_
+6,This is your homepage,Assert if [<Object>]'s Text EndsWith [<Data>],assertElementTextEndsWith,@This is your homepage,,Welcome_
+7,sign in,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+8,Register a new account,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+9,Home,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+10,Account,Assert if [<Object>] is present,assertElementPresent,,,Welcome_

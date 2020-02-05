@@ -1,0 +1,12 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://javaspringbootinsightscits.azurewebsites.net/,,
+2,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+3,Browser,Maximize the browser.,maximize,,,
+4,"Welcome, Java Hipster!",Assert if [<Object>]'s Text Equals [<Data>],assertElementTextEquals,"@Welcome, Java Hipster!",,Welcome_
+5,This is your homepage,Assert if [<Object>]'s Text EndsWith [<Data>],assertElementTextEndsWith,@This is your homepage,,Welcome_
+6,If you have any question on JH,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,@If you have any question on JHipster:,,Welcome_
+7,JHipster homepage,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+8,JHipster on Stack Overflow,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+9,JHipster bug tracker,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+10,JHipster public chat room,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+11,follow @java_hipster on Twitte,Assert if [<Object>] is present,assertElementPresent,,,Welcome_

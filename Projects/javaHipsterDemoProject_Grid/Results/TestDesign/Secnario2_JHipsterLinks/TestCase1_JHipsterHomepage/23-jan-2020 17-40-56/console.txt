@@ -1,0 +1,116 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_241
+java.home            : C:\Program Files\Java\jre1.8.0_241
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Jan 23 17:40:56 IST 2020
+Loading Browser Profile
+Loading RunManager
+[Scenario:Secnario2_JHipsterLinks] [TestCase: TestCase1_JHipsterHomepage] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Test
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 9477
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1579781459.693][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+2020-01-23 17:41:00:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://javaspringbootinsightscits.azurewebsites.net/ | Conditon:  | @23-jan-2020 17:41:00.000
+[DONE]   | Opened Url: https://javaspringbootinsightscits.azurewebsites.net/
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @23-jan-2020 17:41:02.002
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:3   | Object: JHipster homepage | Action: assertElementPresent | Input:  | Conditon:  | @23-jan-2020 17:41:02.002
+Using @link_text [JHipster homepage], Object 'JHipster homepage' Found in 58 ms
+[PASS]   | Element [JHipster homepage] is Present
+
+===================================================================================================
+
+2020-01-23 17:41:02:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:4   | Object: JHipster homepage | Action: Click | Input:  | Conditon:  | @23-jan-2020 17:41:03.003
+Using @link_text [JHipster homepage], Object 'JHipster homepage' Found in 35 ms
+[DONE]   | Clicking on JHipster homepage
+
+===================================================================================================
+
+Step:5   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @23-jan-2020 17:41:03.003
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:6   | Object: Sponsors | Action: assertElementPresent | Input:  | Conditon:  | @23-jan-2020 17:41:03.003
+Using @type [a], Object 'Sponsors' Found in 342 ms
+[PASS]   | Element [Sponsors] is Present
+
+===================================================================================================
+
+2020-01-23 17:41:05:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:7   | Object: About | Action: assertElementPresent | Input:  | Conditon:  | @23-jan-2020 17:41:07.007
+Using @type [a], Object 'About' Found in 113 ms
+[PASS]   | Element [About] is Present
+
+===================================================================================================
+
+2020-01-23 17:41:07:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:8   | Object: Learn | Action: assertElementPresent | Input:  | Conditon:  | @23-jan-2020 17:41:09.009
+Using @type [a], Object 'Learn' Found in 102 ms
+[PASS]   | Element [Learn] is Present
+
+===================================================================================================
+
+2020-01-23 17:41:09:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:9   | Object: Options | Action: assertElementPresent | Input:  | Conditon:  | @23-jan-2020 17:41:10.010
+Using @type [a], Object 'Options' Found in 324 ms
+[PASS]   | Element [Options] is Present
+
+===================================================================================================
+
+2020-01-23 17:41:11:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:10  | Object: Modules & Blueprints | Action: assertElementPresent | Input:  | Conditon:  | @23-jan-2020 17:41:12.012
+Using @type [a], Object 'Modules & Blueprints' Found in 65 ms
+[PASS]   | Element [Modules & Blueprints] is Present
+
+===================================================================================================
+
+2020-01-23 17:41:12:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:11  | Object: Github | Action: assertElementPresent | Input:  | Conditon:  | @23-jan-2020 17:41:13.013
+Using @type [a], Object 'Github' Found in 72 ms
+[PASS]   | Element [Github] is Present
+
+===================================================================================================
+
+2020-01-23 17:41:13:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+
+---------------------------------------------------
+Testcase Name        : Secnario2_JHipsterLinks:TestCase1_JHipsterHomepage
+Executed Steps       : 11
+Passed Steps         : 11
+Failed Steps         : 0
+Time Taken           : 00:00:20
+-----------------------------------------------------
+
+Run Finished on Thu Jan 23 17:41:16 IST 2020
+-----------------------------------------------------
+ExecutionDate        : 23-jan-2020 17-40-56
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:20
+ReportPath           : file:///H:\CITS\cognizant-intelligent-test-scripter-1.2\Projects\javaspringbboot_CITSProject\Results\TestDesign\Secnario2_JHipsterLinks\TestCase1_JHipsterHomepage\23-jan-2020 17-40-56\summary.html
+-----------------------------------------------------

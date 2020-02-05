@@ -1,0 +1,11 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://javaspringbootinsightscits.azurewebsites.net/,,
+2,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+3,Browser,Maximize the browser.,maximize,,,
+4,JHipster on Stack Overflow,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+5,JHipster on Stack Overflow,"Click the [<Object>] ",Click,,,Welcome_
+6,Stack Overflow,Assert if [<Object>] is present,assertElementPresent,,,_jhipster_
+7,Stack Overflow,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,@Stack Overflow,,_jhipster_
+8,About,Assert if [<Object>]'s Text Equals [<Data>],assertElementTextEquals,@About,,_jhipster_
+9,Log in,Assert if [<Object>] is present,assertElementPresent,,,_jhipster_
+10,Sign up,Assert if [<Object>] is present,assertElementPresent,,,_jhipster_

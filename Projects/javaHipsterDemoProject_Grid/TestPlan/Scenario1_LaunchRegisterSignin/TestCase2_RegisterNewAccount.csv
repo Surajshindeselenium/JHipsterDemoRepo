@@ -1,0 +1,22 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://javaspringbootinsightscits.azurewebsites.net/,,
+2,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+3,Browser,Maximize the browser.,maximize,,,
+4,Register a new account,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+5,Register a new account,"Click the [<Object>] ",Click,,,Welcome_
+6,Registration,Assert if [<Object>]'s Text Equals [<Data>],assertElementTextEquals,@Registration,,Registration
+7,Username,Assert if [<Object>] is present,assertElementPresent,,,Registration
+8,Username1,"Click the [<Object>] ",Click,,,Registration
+9,Username2,Enter the value [<Data>] in the Field [<Object>],Set,@NewUser_123,,Registration
+10,Email,Assert if [<Object>] is present,assertElementPresent,,,Registration
+11,Email1,"Click the [<Object>] ",Click,,,Registration
+12,Email2,Enter the value [<Data>] in the Field [<Object>],Set,@NewUser123@azure.com,,Registration
+13,New password,"Click the [<Object>] ",Click,,,Registration
+14,New password1,Assert if [<Object>] is present,assertElementPresent,,,Registration
+15,New password2,"Click the [<Object>] ",Click,,,Registration
+16,New password3,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@UGFzc3dvcmQxMjM= Enc,,Registration
+17,New password confirmation,"Click the [<Object>] ",Click,,,Registration
+18,New password confirmation1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@UGFzc3dvcmQxMjM= Enc,,Registration
+19,Register,Assert if [<Object>] is present,assertElementPresent,,,Registration
+20,Register,"Click the [<Object>] ",Click,,,Registration
+21,Registration failed!,Assert if [<Object>]'s Text StartsWith [<Data>],assertElementTextStartsWith,@Registration failed!,,Registration

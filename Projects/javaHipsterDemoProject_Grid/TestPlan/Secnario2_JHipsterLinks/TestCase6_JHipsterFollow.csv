@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://javaspringbootinsightscits.azurewebsites.net/,,
+2,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+3,follow @java_hipster on Twitte,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+4,follow @java_hipster on Twitte,Assert if [<Object>]'s Text StartsWith [<Data>],assertElementTextStartsWith,@follow,,Welcome_
+5,follow @java_hipster on Twitte,"Click the [<Object>] ",Click,,,Welcome_
+6,Home,Assert if [<Object>] is present,assertElementPresent,,,Twitter
+7,About,Assert if [<Object>] is present,assertElementPresent,,,Twitter
+8,Log in,Assert if [<Object>] is present,assertElementPresent,,,Twitter

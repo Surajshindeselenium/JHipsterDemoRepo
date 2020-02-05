@@ -1,0 +1,1 @@
+var reportName="jHipsterRelease2:jHipsterCitsTestSet2";var dataSet=[{"PassTC":"8","FailTC":"2","ReportPath":"24-jan-2020 13-23-25\\summary.html","ExecTC":"10","ExecutionDate":"24-jan-2020 13-23-25","ExecTime":"00:05:51"},{"PassTC":"0","FailTC":"10","ReportPath":"24-jan-2020 13-35-41\\summary.html","ExecTC":"10","ExecutionDate":"24-jan-2020 13-35-41","ExecTime":"00:00:22"}]

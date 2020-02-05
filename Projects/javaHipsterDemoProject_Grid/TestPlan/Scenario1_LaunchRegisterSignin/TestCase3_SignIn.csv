@@ -1,0 +1,18 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://javaspringbootinsightscits.azurewebsites.net/,,
+2,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+3,Browser,Maximize the browser.,maximize,,,
+4,sign in,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+5,sign in,"Click the [<Object>] ",Click,,,Welcome_
+6,Sign in1,Assert if [<Object>]'s Text Equals [<Data>],assertElementTextEquals,@Sign in,,Welcome_
+7,Login,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+8,Login1,"Click the [<Object>] ",Click,,,Welcome_
+9,Login2,Enter the value [<Data>] in the Field [<Object>],Set,@TestUser_123,,Welcome_
+10,Password,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+11,Password1,"Click the [<Object>] ",Click,,,Welcome_
+12,Password2,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@UGFzc3dvcmRfMTIz Enc,,Welcome_
+13,Sign in2,Assert if [<Object>] is present,assertElementPresent,,,Welcome_
+14,Sign in2,"Click the [<Object>] ",Click,,,Welcome_
+15,Failed to sign in!,Assert if [<Object>]'s Text StartsWith [<Data>],assertElementTextStartsWith,@Failed to sign in!,,Welcome_
+16,Did you forget your password?,Assert if [<Object>]'s Text Equals [<Data>],assertElementTextEquals,@Did you forget your password?,,Welcome_
+17,Register a new account1,Assert if [<Object>]'s Text Equals [<Data>],assertElementTextEquals,@Register a new account,,Welcome_

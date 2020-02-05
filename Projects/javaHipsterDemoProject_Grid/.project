@@ -1,0 +1,73 @@
+{
+  "id" : "javaspringbboot_CITSProject",
+  "name" : "javaspringbboot_CITSProject",
+  "attributes" : [ ],
+  "tags" : [ ],
+  "_meta" : [ {
+    "type" : "attribute",
+    "name" : "scenario",
+    "desc" : "High level classification of test requirement/cases grouped together",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@smoke",
+    "desc" : "Non-exhaustive set of tests that aim at ensuring that the most important functions work",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@uat",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@load",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Scenario1_LaunchRegisterSignin",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  } ],
+  "data" : [ {
+    "id" : "Scenario1_LaunchRegisterSignin#TestCase1_LaunchURL",
+    "name" : "TestCase1_LaunchURL",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "Scenario1_LaunchRegisterSignin"
+    } ]
+  }, {
+    "id" : "Scenario1_LaunchRegisterSignin#TestCase2_RegisterNewAccount",
+    "name" : "TestCase2_RegisterNewAccount",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "Scenario1_LaunchRegisterSignin"
+    } ]
+  }, {
+    "id" : "Scenario1_LaunchRegisterSignin#TestCase3_SignIn",
+    "name" : "TestCase3_SignIn",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "Scenario1_LaunchRegisterSignin"
+    } ]
+  } ]
+}

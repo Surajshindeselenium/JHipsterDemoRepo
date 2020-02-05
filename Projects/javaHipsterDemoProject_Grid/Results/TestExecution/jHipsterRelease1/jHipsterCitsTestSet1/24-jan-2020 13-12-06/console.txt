@@ -1,0 +1,1353 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_241
+java.home            : C:\Program Files\Java\jre1.8.0_241
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Jan 24 13:12:06 IST 2020
+Loading Browser Profile
+Loading RunManager
+[Scenario:Scenario1_LaunchRegisterSignin] [TestCase: TestCase1_LaunchURL] [Description: TestCase1_LaunchURL] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Scenario1_LaunchRegisterSignin] [TestCase: TestCase2_RegisterNewAccount] [Description: TestCase2_RegisterNewAccount] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Scenario1_LaunchRegisterSignin] [TestCase: TestCase3_SignIn] [Description: TestCase3_SignIn] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Scenario1_LaunchRegisterSignin] [TestCase: TestCase4_LinksVerify] [Description: TestCase4_LinksVerify] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Secnario2_JHipsterLinks] [TestCase: TestCase1_JHipsterHomepage] [Description: TestCase1_JHipsterHomepage] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Secnario2_JHipsterLinks] [TestCase: TestCase2_JHipsterHomepageTabs] [Description: TestCase2_JHipsterHomepageTabs] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Secnario2_JHipsterLinks] [TestCase: TestCase3_JHipsterBugTracker] [Description: TestCase3_JHipsterBugTracker] [Browser: Firefox] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Secnario2_JHipsterLinks] [TestCase: TestCase4_JHipsterStackOverflow] [Description: TestCase4_JHipsterStackOverflow] [Browser: Firefox] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Secnario2_JHipsterLinks] [TestCase: TestCase5_JHipsterPublicChat] [Description: TestCase5_JHipsterPublicChat] [Browser: Firefox] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Secnario2_JHipsterLinks] [TestCase: TestCase6_JHipsterFollow] [Description: TestCase6_JHipsterFollow] [Browser: Firefox] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[10] TestCases selected for execution from [//jHipsterRelease1/jHipsterCitsTestSet1]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Test
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 44251
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+2020-01-24 13:12:14:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://javaspringbootinsightscits.azurewebsites.net/ | Conditon:  | @24-jan-2020 13:12:14.014
+[DONE]   | Opened Url: https://javaspringbootinsightscits.azurewebsites.net/
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @24-jan-2020 13:12:15.015
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: maximize | Input:  | Conditon:  | @24-jan-2020 13:12:15.015
+[DONE]   |  Window is maximized 
+
+===================================================================================================
+
+Step:4   | Object: Welcome, Java Hipster! | Action: assertElementTextEquals | Input: @Welcome, Java Hipster! | Conditon:  | @24-jan-2020 13:12:15.015
+Using @relative_xpath [(//*[normalize-space(text())='Welcome, Java Hipster!'])[2]], Object 'Welcome, Java Hipster!' Found in 49 ms
+[PASS]   | Welcome, Java Hipster!'s Text IS Welcome, Java Hipster! 
+
+===================================================================================================
+
+2020-01-24 13:12:15:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:5   | Object: You don't have an account yet? | Action: assertElementTextStartsWith | Input: @You don't have an account yet? | Conditon:  | @24-jan-2020 13:12:16.016
+Using @relative_xpath [//div[2]/span], Object 'You don't have an account yet?' Found in 16 ms
+[PASS]   | You don't have an account yet?'s Text STARTS You don't have an account yet? 
+
+===================================================================================================
+
+2020-01-24 13:12:17:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:6   | Object: This is your homepage | Action: assertElementTextEndsWith | Input: @This is your homepage | Conditon:  | @24-jan-2020 13:12:18.018
+Using @relative_xpath [//*[normalize-space(text())='This is your homepage']], Object 'This is your homepage' Found in 16 ms
+[PASS]   | This is your homepage's Text ENDS This is your homepage 
+
+===================================================================================================
+
+2020-01-24 13:12:19:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:7   | Object: sign in | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:12:20.020
+Using @link_text [sign in], Object 'sign in' Found in 32 ms
+[PASS]   | Element [sign in] is Present
+
+===================================================================================================
+
+2020-01-24 13:12:20:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:8   | Object: Register a new account | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:12:21.021
+Using @link_text [Register a new account], Object 'Register a new account' Found in 52 ms
+[PASS]   | Element [Register a new account] is Present
+
+===================================================================================================
+
+2020-01-24 13:12:21:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:9   | Object: Home | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:12:22.022
+Using @relative_xpath [//*[normalize-space(text())='Home']], Object 'Home' Found in 17 ms
+[PASS]   | Element [Home] is Present
+
+===================================================================================================
+
+2020-01-24 13:12:22:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:10  | Object: Account | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:12:23.023
+Using @relative_xpath [//*[normalize-space(text())='Account']], Object 'Account' Found in 15 ms
+[PASS]   | Element [Account] is Present
+
+===================================================================================================
+
+2020-01-24 13:12:23:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+
+---------------------------------------------------
+Testcase Name        : Scenario1_LaunchRegisterSignin:TestCase1_LaunchURL
+Executed Steps       : 10
+Passed Steps         : 10
+Failed Steps         : 0
+Time Taken           : 00:00:19
+-----------------------------------------------------
+
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Test
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 18486
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+2020-01-24 13:12:30:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://javaspringbootinsightscits.azurewebsites.net/ | Conditon:  | @24-jan-2020 13:12:30.030
+[DONE]   | Opened Url: https://javaspringbootinsightscits.azurewebsites.net/
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @24-jan-2020 13:12:32.032
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: maximize | Input:  | Conditon:  | @24-jan-2020 13:12:32.032
+[DONE]   |  Window is maximized 
+
+===================================================================================================
+
+Step:4   | Object: Register a new account | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:12:32.032
+Using @link_text [Register a new account], Object 'Register a new account' Found in 36 ms
+[PASS]   | Element [Register a new account] is Present
+
+===================================================================================================
+
+2020-01-24 13:12:32:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:5   | Object: Register a new account | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:12:33.033
+Using @link_text [Register a new account], Object 'Register a new account' Found in 22 ms
+[DONE]   | Clicking on Register a new account
+
+===================================================================================================
+
+Step:6   | Object: Registration | Action: assertElementTextEquals | Input: @Registration | Conditon:  | @24-jan-2020 13:12:33.033
+Using @relative_xpath [(//*[normalize-space(text())='Registration'])[2]], Object 'Registration' Found in 80 ms
+[PASS]   | Registration's Text IS Registration 
+
+===================================================================================================
+
+2020-01-24 13:12:34:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:7   | Object: Username | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:12:35.035
+Using @relative_xpath [//*[normalize-space(text())='Username']], Object 'Username' Found in 21 ms
+[PASS]   | Element [Username] is Present
+
+===================================================================================================
+
+2020-01-24 13:12:35:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:8   | Object: Username1 | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:12:36.036
+Using @name [login], Object 'Username1' Found in 13 ms
+[DONE]   | Clicking on Username1
+
+===================================================================================================
+
+Step:9   | Object: Username2 | Action: Set | Input: @NewUser_123 | Conditon:  | @24-jan-2020 13:12:36.036
+Using @name [login], Object 'Username2' Found in 11 ms
+[DONE]   | Entered Text 'NewUser_123' on 'Username2'
+
+===================================================================================================
+
+Step:10  | Object: Email | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:12:36.036
+Using @relative_xpath [//*[normalize-space(text())='Email']], Object 'Email' Found in 13 ms
+[PASS]   | Element [Email] is Present
+
+===================================================================================================
+
+2020-01-24 13:12:36:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:11  | Object: Email1 | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:12:37.037
+Using @name [email], Object 'Email1' Found in 13 ms
+[DONE]   | Clicking on Email1
+
+===================================================================================================
+
+Step:12  | Object: Email2 | Action: Set | Input: @NewUser123@azure.com | Conditon:  | @24-jan-2020 13:12:37.037
+Using @name [email], Object 'Email2' Found in 8 ms
+[DONE]   | Entered Text 'NewUser123@azure.com' on 'Email2'
+
+===================================================================================================
+
+Step:13  | Object: New password | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:12:37.037
+Using @name [password], Object 'New password' Found in 13 ms
+[DONE]   | Clicking on New password
+
+===================================================================================================
+
+Step:14  | Object: New password1 | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:12:37.037
+Using @relative_xpath [//*[normalize-space(text())='New password']], Object 'New password1' Found in 14 ms
+[PASS]   | Element [New password1] is Present
+
+===================================================================================================
+
+2020-01-24 13:12:37:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:15  | Object: New password2 | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:12:38.038
+Using @name [password], Object 'New password2' Found in 9 ms
+[DONE]   | Clicking on New password2
+
+===================================================================================================
+
+Step:16  | Object: New password3 | Action: setEncrypted | Input: @UGFzc3dvcmQxMjM= Enc | Conditon:  | @24-jan-2020 13:12:38.038
+Using @name [password], Object 'New password3' Found in 10 ms
+[DONE]   | Entered Encrypted Text UGFzc3dvcmQxMjM= on New password3
+
+===================================================================================================
+
+Step:17  | Object: New password confirmation | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:12:38.038
+Using @name [confirmPassword], Object 'New password confirmation' Found in 18 ms
+[DONE]   | Clicking on New password confirmation
+
+===================================================================================================
+
+Step:18  | Object: New password confirmation1 | Action: setEncrypted | Input: @UGFzc3dvcmQxMjM= Enc | Conditon:  | @24-jan-2020 13:12:38.038
+Using @name [confirmPassword], Object 'New password confirmation1' Found in 10 ms
+[DONE]   | Entered Encrypted Text UGFzc3dvcmQxMjM= on New password confirmation1
+
+===================================================================================================
+
+Step:19  | Object: Register | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:12:38.038
+Using @relative_xpath [//button[@type='submit']], Object 'Register' Found in 15 ms
+[PASS]   | Element [Register] is Present
+
+===================================================================================================
+
+2020-01-24 13:12:38:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:20  | Object: Register | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:12:39.039
+Using @relative_xpath [//button[@type='submit']], Object 'Register' Found in 9 ms
+[DONE]   | Clicking on Register
+
+===================================================================================================
+
+Step:21  | Object: Registration failed! | Action: assertElementTextStartsWith | Input: @Registration failed! | Conditon:  | @24-jan-2020 13:12:39.039
+Using @relative_xpath [//*[normalize-space(text())='Registration failed!']], Object 'Registration failed!' Found in 29 ms
+[PASS]   | Registration failed!'s Text STARTS Registration failed! 
+
+===================================================================================================
+
+2020-01-24 13:12:39:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+
+---------------------------------------------------
+Testcase Name        : Scenario1_LaunchRegisterSignin:TestCase2_RegisterNewAccount
+Executed Steps       : 21
+Passed Steps         : 21
+Failed Steps         : 0
+Time Taken           : 00:00:16
+-----------------------------------------------------
+
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Test
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 11337
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+2020-01-24 13:12:46:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://javaspringbootinsightscits.azurewebsites.net/ | Conditon:  | @24-jan-2020 13:12:46.046
+[DONE]   | Opened Url: https://javaspringbootinsightscits.azurewebsites.net/
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @24-jan-2020 13:12:48.048
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: maximize | Input:  | Conditon:  | @24-jan-2020 13:12:48.048
+[DONE]   |  Window is maximized 
+
+===================================================================================================
+
+Step:4   | Object: sign in | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:12:48.048
+Using @link_text [sign in], Object 'sign in' Found in 30 ms
+[PASS]   | Element [sign in] is Present
+
+===================================================================================================
+
+2020-01-24 13:12:48:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:5   | Object: sign in | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:12:49.049
+Using @link_text [sign in], Object 'sign in' Found in 19 ms
+[DONE]   | Clicking on sign in
+
+===================================================================================================
+
+Step:6   | Object: Sign in1 | Action: assertElementTextEquals | Input: @Sign in | Conditon:  | @24-jan-2020 13:12:49.049
+Using @relative_xpath [(//*[normalize-space(text())='Sign in'])[2]], Object 'Sign in1' Found in 38 ms
+[PASS]   | Sign in1's Text IS Sign in 
+
+===================================================================================================
+
+2020-01-24 13:12:50:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:7   | Object: Login | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:12:50.050
+Using @relative_xpath [//*[normalize-space(text())='Login']], Object 'Login' Found in 18 ms
+[PASS]   | Element [Login] is Present
+
+===================================================================================================
+
+2020-01-24 13:12:51:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:8   | Object: Login1 | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:12:52.052
+Using @name [username], Object 'Login1' Found in 68 ms
+[DONE]   | Clicking on Login1
+
+===================================================================================================
+
+Step:9   | Object: Login2 | Action: Set | Input: @TestUser_123 | Conditon:  | @24-jan-2020 13:12:52.052
+Using @name [username], Object 'Login2' Found in 11 ms
+[DONE]   | Entered Text 'TestUser_123' on 'Login2'
+
+===================================================================================================
+
+Step:10  | Object: Password | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:12:52.052
+Using @relative_xpath [//*[normalize-space(text())='Password']], Object 'Password' Found in 56 ms
+[PASS]   | Element [Password] is Present
+
+===================================================================================================
+
+2020-01-24 13:12:52:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:11  | Object: Password1 | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:12:53.053
+2020-01-24 13:13:03:01S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.drivers.AutomationObject$$Lambda$337/1336675890@1f9cbe7f (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WPU8V9011740', ip: '10.254.37.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\YK05GG\AppData\Local\Temp\scoped_dir14820_758686249}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51820}, acceptInsecureCerts=false, browserVersion=79.0.3945.130, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 8820161780edc746dbcac4bdfbbba8a5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:303)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:255)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:242)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:118)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:111)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:93)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Couldn't find Object 'Password1' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Password1] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2020-01-24 13:13:03:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+2020-01-24 13:13:04:01S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Password1] is Not Present/Found in the page Try Adding wait or heal it
+com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Password1] is Not Present/Found in the page Try Adding wait or heal it
+	at com.cognizant.cognizantits.engine.commands.General.elementDisplayed(General.java:57)
+	at com.cognizant.cognizantits.engine.commands.General.elementEnabled(General.java:63)
+	at com.cognizant.cognizantits.engine.commands.Basic.Click(Basic.java:45)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Step:12  | Object: Password2 | Action: setEncrypted | Input: @UGFzc3dvcmRfMTIz Enc | Conditon:  | @24-jan-2020 13:13:04.004
+2020-01-24 13:13:14:01S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.drivers.AutomationObject$$Lambda$337/1336675890@52aee7c (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WPU8V9011740', ip: '10.254.37.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\YK05GG\AppData\Local\Temp\scoped_dir14820_758686249}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51820}, acceptInsecureCerts=false, browserVersion=79.0.3945.130, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 8820161780edc746dbcac4bdfbbba8a5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:303)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:255)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:242)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:118)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:111)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:93)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Couldn't find Object 'Password2' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Password2] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2020-01-24 13:13:14:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+2020-01-24 13:13:15:01S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Password2] is Not Present/Found in the page Try Adding wait or heal it
+com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Password2] is Not Present/Found in the page Try Adding wait or heal it
+	at com.cognizant.cognizantits.engine.commands.General.elementDisplayed(General.java:57)
+	at com.cognizant.cognizantits.engine.commands.General.elementEnabled(General.java:63)
+	at com.cognizant.cognizantits.engine.commands.Basic.setEncrypted(Basic.java:146)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Step:13  | Object: Sign in2 | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:13:15.015
+2020-01-24 13:13:26:01S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.drivers.AutomationObject$$Lambda$337/1336675890@c335ba5 (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WPU8V9011740', ip: '10.254.37.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\YK05GG\AppData\Local\Temp\scoped_dir14820_758686249}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51820}, acceptInsecureCerts=false, browserVersion=79.0.3945.130, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 8820161780edc746dbcac4bdfbbba8a5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:303)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:255)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:242)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:118)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:111)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:93)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Couldn't find Object 'Sign in2' in stipulated Time '10' Seconds
+[FAIL]   | Element [Sign in2] is not Present
+
+===================================================================================================
+
+2020-01-24 13:13:26:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+2020-01-24 13:13:27:01S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onRuntimeException:Element [Sign in2] is not Present
+com.cognizant.cognizantits.engine.execution.exception.ForcedException: Element [Sign in2] is not Present
+	at com.cognizant.cognizantits.engine.commands.AssertElement.assertElement(AssertElement.java:85)
+	at com.cognizant.cognizantits.engine.commands.AssertElement.assertElement(AssertElement.java:90)
+	at com.cognizant.cognizantits.engine.commands.AssertElement.assertElementPresent(AssertElement.java:59)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Step:14  | Object: Sign in2 | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:13:27.027
+2020-01-24 13:13:37:01S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.drivers.AutomationObject$$Lambda$337/1336675890@2ae548ff (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WPU8V9011740', ip: '10.254.37.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\YK05GG\AppData\Local\Temp\scoped_dir14820_758686249}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51820}, acceptInsecureCerts=false, browserVersion=79.0.3945.130, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 8820161780edc746dbcac4bdfbbba8a5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:303)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:255)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:242)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:118)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:111)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:93)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Couldn't find Object 'Sign in2' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Sign in2] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2020-01-24 13:13:37:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+2020-01-24 13:13:38:01S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Sign in2] is Not Present/Found in the page Try Adding wait or heal it
+com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Sign in2] is Not Present/Found in the page Try Adding wait or heal it
+	at com.cognizant.cognizantits.engine.commands.General.elementDisplayed(General.java:57)
+	at com.cognizant.cognizantits.engine.commands.General.elementEnabled(General.java:63)
+	at com.cognizant.cognizantits.engine.commands.Basic.Click(Basic.java:45)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Step:15  | Object: Failed to sign in! | Action: assertElementTextStartsWith | Input: @Failed to sign in! | Conditon:  | @24-jan-2020 13:13:38.038
+2020-01-24 13:13:48:01S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.drivers.AutomationObject$$Lambda$337/1336675890@1b68b1d (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WPU8V9011740', ip: '10.254.37.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\YK05GG\AppData\Local\Temp\scoped_dir14820_758686249}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51820}, acceptInsecureCerts=false, browserVersion=79.0.3945.130, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 8820161780edc746dbcac4bdfbbba8a5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:303)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:255)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:242)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:118)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:111)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:93)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Couldn't find Object 'Failed to sign in!' in stipulated Time '10' Seconds
+[FAIL]   | Cannot find locator for "Failed to sign in!" in page spec
+
+===================================================================================================
+
+2020-01-24 13:13:48:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:16  | Object: Did you forget your password? | Action: assertElementTextEquals | Input: @Did you forget your password? | Conditon:  | @24-jan-2020 13:13:49.049
+Using @class [alert-link], Object 'Did you forget your password?' Found in 59 ms
+[FAIL]   | "Did you forget your password?" text is "sign in" but should be "Did you forget your password?"
+
+===================================================================================================
+
+2020-01-24 13:13:49:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:17  | Object: Register a new account1 | Action: assertElementTextEquals | Input: @Register a new account | Conditon:  | @24-jan-2020 13:13:50.050
+Using @link_text [Register a new account], Object 'Register a new account1' Found in 23 ms
+[PASS]   | Register a new account1's Text IS Register a new account 
+
+===================================================================================================
+
+2020-01-24 13:13:50:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+
+---------------------------------------------------
+Testcase Name        : Scenario1_LaunchRegisterSignin:TestCase3_SignIn
+Executed Steps       : 17
+Passed Steps         : 11
+Failed Steps         : 6
+Time Taken           : 00:01:09
+-----------------------------------------------------
+
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Test
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 48189
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+2020-01-24 13:13:56:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://javaspringbootinsightscits.azurewebsites.net/ | Conditon:  | @24-jan-2020 13:13:56.056
+[DONE]   | Opened Url: https://javaspringbootinsightscits.azurewebsites.net/
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @24-jan-2020 13:13:58.058
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: maximize | Input:  | Conditon:  | @24-jan-2020 13:13:58.058
+[DONE]   |  Window is maximized 
+
+===================================================================================================
+
+Step:4   | Object: Welcome, Java Hipster! | Action: assertElementTextEquals | Input: @Welcome, Java Hipster! | Conditon:  | @24-jan-2020 13:13:58.058
+Using @relative_xpath [(//*[normalize-space(text())='Welcome, Java Hipster!'])[2]], Object 'Welcome, Java Hipster!' Found in 16 ms
+[PASS]   | Welcome, Java Hipster!'s Text IS Welcome, Java Hipster! 
+
+===================================================================================================
+
+2020-01-24 13:13:58:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:5   | Object: This is your homepage | Action: assertElementTextEndsWith | Input: @This is your homepage | Conditon:  | @24-jan-2020 13:13:59.059
+Using @relative_xpath [//*[normalize-space(text())='This is your homepage']], Object 'This is your homepage' Found in 15 ms
+[PASS]   | This is your homepage's Text ENDS This is your homepage 
+
+===================================================================================================
+
+2020-01-24 13:13:59:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:6   | Object: If you have any question on JH | Action: assertElementTextContains | Input: @If you have any question on JHipster: | Conditon:  | @24-jan-2020 13:14:00.000
+Using @relative_xpath [//*[normalize-space(text())='If you have any question on JHipster:']], Object 'If you have any question on JH' Found in 36 ms
+[PASS]   | If you have any question on JH's Text CONTAINS If you have any question on JHipster: 
+
+===================================================================================================
+
+2020-01-24 13:14:00:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:7   | Object: JHipster homepage | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:01.001
+Using @link_text [JHipster homepage], Object 'JHipster homepage' Found in 25 ms
+[PASS]   | Element [JHipster homepage] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:01:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:8   | Object: JHipster on Stack Overflow | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:02.002
+Using @link_text [JHipster on Stack Overflow], Object 'JHipster on Stack Overflow' Found in 25 ms
+[PASS]   | Element [JHipster on Stack Overflow] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:02:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:9   | Object: JHipster bug tracker | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:03.003
+Using @link_text [JHipster bug tracker], Object 'JHipster bug tracker' Found in 28 ms
+[PASS]   | Element [JHipster bug tracker] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:03:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:10  | Object: JHipster public chat room | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:04.004
+Using @link_text [JHipster public chat room], Object 'JHipster public chat room' Found in 24 ms
+[PASS]   | Element [JHipster public chat room] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:04:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:11  | Object: follow @java_hipster on Twitte | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:05.005
+Using @link_text [follow @java_hipster on Twitter], Object 'follow @java_hipster on Twitte' Found in 23 ms
+[PASS]   | Element [follow @java_hipster on Twitte] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:05:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+
+---------------------------------------------------
+Testcase Name        : Scenario1_LaunchRegisterSignin:TestCase4_LinksVerify
+Executed Steps       : 11
+Passed Steps         : 11
+Failed Steps         : 0
+Time Taken           : 00:00:15
+-----------------------------------------------------
+
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Test
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 20475
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+2020-01-24 13:14:12:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://javaspringbootinsightscits.azurewebsites.net/ | Conditon:  | @24-jan-2020 13:14:12.012
+[DONE]   | Opened Url: https://javaspringbootinsightscits.azurewebsites.net/
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @24-jan-2020 13:14:13.013
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: maximize | Input:  | Conditon:  | @24-jan-2020 13:14:13.013
+[DONE]   |  Window is maximized 
+
+===================================================================================================
+
+Step:4   | Object: JHipster homepage | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:13.013
+Using @link_text [JHipster homepage], Object 'JHipster homepage' Found in 26 ms
+[PASS]   | Element [JHipster homepage] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:14:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:5   | Object: JHipster homepage | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:14:14.014
+Using @link_text [JHipster homepage], Object 'JHipster homepage' Found in 17 ms
+[DONE]   | Clicking on JHipster homepage
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @24-jan-2020 13:14:15.015
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:7   | Object: Sponsors | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:15.015
+Using @type [a], Object 'Sponsors' Found in 2640 ms
+[PASS]   | Element [Sponsors] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:17:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:8   | Object: About | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:18.018
+Using @type [a], Object 'About' Found in 117 ms
+[PASS]   | Element [About] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:19:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:9   | Object: Learn | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:19.019
+Using @type [a], Object 'Learn' Found in 61 ms
+[PASS]   | Element [Learn] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:20:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:10  | Object: Options | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:21.021
+Using @type [a], Object 'Options' Found in 70 ms
+[PASS]   | Element [Options] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:21:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:11  | Object: Modules & Blueprints | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:22.022
+Using @type [a], Object 'Modules & Blueprints' Found in 157 ms
+[PASS]   | Element [Modules & Blueprints] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:22:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:12  | Object: Github | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:23.023
+Using @type [a], Object 'Github' Found in 82 ms
+[PASS]   | Element [Github] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:23:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+
+---------------------------------------------------
+Testcase Name        : Secnario2_JHipsterLinks:TestCase1_JHipsterHomepage
+Executed Steps       : 12
+Passed Steps         : 12
+Failed Steps         : 0
+Time Taken           : 00:00:18
+-----------------------------------------------------
+
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Test
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 35279
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+2020-01-24 13:14:30:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://javaspringbootinsightscits.azurewebsites.net/ | Conditon:  | @24-jan-2020 13:14:30.030
+[DONE]   | Opened Url: https://javaspringbootinsightscits.azurewebsites.net/
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @24-jan-2020 13:14:32.032
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: maximize | Input:  | Conditon:  | @24-jan-2020 13:14:32.032
+[DONE]   |  Window is maximized 
+
+===================================================================================================
+
+Step:4   | Object: JHipster homepage | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:14:32.032
+Using @link_text [JHipster homepage], Object 'JHipster homepage' Found in 25 ms
+[PASS]   | Element [JHipster homepage] is Present
+
+===================================================================================================
+
+2020-01-24 13:14:32:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:5   | Object: JHipster homepage | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:14:33.033
+Using @link_text [JHipster homepage], Object 'JHipster homepage' Found in 19 ms
+[DONE]   | Clicking on JHipster homepage
+
+===================================================================================================
+
+Step:9   | Object: icon fa fa-home | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:14:33.033
+Using @type [span], Object 'icon fa fa-home' Found in 88 ms
+[DONE]   | Clicking on icon fa fa-home
+
+===================================================================================================
+
+Step:10  | Object: Greetings, Java Hipster! | Action: assertElementTextEndsWith | Input: @Hipster! | Conditon:  | @24-jan-2020 13:14:41.041
+Using @type [span], Object 'Greetings, Java Hipster!' Found in 62 ms
+[FAIL]   | "Greetings, Java Hipster!" text is "" but should end with "Hipster!"
+
+===================================================================================================
+
+2020-01-24 13:14:41:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+
+---------------------------------------------------
+Testcase Name        : Secnario2_JHipsterLinks:TestCase2_JHipsterHomepageTabs
+Executed Steps       : 7
+Passed Steps         : 6
+Failed Steps         : 1
+Time Taken           : 00:00:16
+-----------------------------------------------------
+
+Running Iteration 1
+Launching Firefox
+Launching Local Driver
+2020-01-24 13:14:44:01S +0530 [INFO] org.openqa.selenium.firefox.FirefoxOptions toCapabilities:Preferring the firefox binary in these options (C:\Program Files\Mozilla Firefox\Firefox.exe rather than C:/Program Files/Mozilla Firefox/Firefox.exe)
+2020-01-24 13:14:44:01S +0530 [INFO] org.openqa.selenium.firefox.FirefoxOptions toCapabilities:Preferring the firefox binary in these options (C:\Program Files\Mozilla Firefox\Firefox.exe rather than C:/Program Files/Mozilla Firefox/Firefox.exe)
+1579851885381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\Firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YK05GG\\AppData\\Local\\Temp\\rust_mozprofile.tSMM1lp4WsHN"
+1579851886804	addons.manager	DEBUG	Application has been upgraded
+1579851886832	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1579851886834	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1579851886864	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1579851886866	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1579851886868	addons.manager	DEBUG	Starting provider: XPIProvider
+1579851886868	addons.xpi	DEBUG	startup
+1579851886868	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1579851886868	addons.xpi	INFO	Removing all system add-on upgrades.
+1579851886868	addons.xpi	DEBUG	checkForChanges
+1579851886870	addons.xpi	DEBUG	Loaded add-on state: ${}
+1579851886870	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1579851886872	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1579851886872	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1579851886872	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1579851886872	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1579851886872	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1579851886872	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1579851886872	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1579851886872	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1579851886872	addons.xpi	DEBUG	New add-on activity-stream@mozilla.org in app-system-defaults
+1579851886874	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1579851886874	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1579851886874	addons.xpi	DEBUG	New add-on followonsearch@mozilla.com in app-system-defaults
+1579851886874	addons.xpi	DEBUG	New add-on formautofill@mozilla.org in app-system-defaults
+1579851886876	addons.xpi	DEBUG	New add-on onboarding@mozilla.org in app-system-defaults
+1579851886876	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1579851886876	addons.xpi	DEBUG	New add-on shield-recipe-client@mozilla.org in app-system-defaults
+1579851886876	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1579851886878	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1579851886878	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1579851886878	addons.xpi	DEBUG	getInstallState changed: true, state: {}
+1579851886878	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1579851886884	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\YK05GG\AppData\Local\Temp\rust_mozprofile.tSMM1lp4WsHN\extensions.json
+1579851886886	addons.xpi-utils	DEBUG	New add-on activity-stream@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1579851886912	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+1579851886918	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1579851886922	addons.xpi-utils	DEBUG	New add-on followonsearch@mozilla.com installed in app-system-defaults
+1579851886926	addons.xpi-utils	DEBUG	New add-on formautofill@mozilla.org installed in app-system-defaults
+1579851886932	addons.xpi-utils	DEBUG	New add-on onboarding@mozilla.org installed in app-system-defaults
+1579851886936	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1579851886954	addons.xpi-utils	DEBUG	New add-on shield-recipe-client@mozilla.org installed in app-system-defaults
+1579851886956	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1579851886960	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1579851886964	addons.manager	DEBUG	Registering startup change 'installed' for activity-stream@mozilla.org
+1579851886970	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1579851886974	addons.xpi	DEBUG	Calling bootstrap method install on activity-stream@mozilla.org version 2018.02.17.0026-173e2795
+1579851886974	addons.xpi-utils	DEBUG	Make addon app-system-defaults:activity-stream@mozilla.org visible
+1579851886974	addons.xpi	DEBUG	Updating XPIState for {"id":"activity-stream@mozilla.org","syncGUID":"{4d5e381a-6c8e-4280-8fc5-cf7e10979dc0}","location":"app-system-defaults","version":"2018.02.17.0026-173e2795","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Activity Stream","description":"A rich visual history feed and a reimagined home page make it easier than ever to find exactly what you're looking for in Firefox.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465971,"updateDate":1520657465971,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\activity-stream@mozilla.org.xpi","skinnable":false,"size":2766941,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851888620	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1579851888620	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1579851888624	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1579851888624	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1579851888624	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{02cf7fae-c259-4804-9992-d69f5004dd77}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465972,"updateDate":1520657465972,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","skinnable":false,"size":8486,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851888624	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1579851888624	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1579851888630	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1579851888630	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1579851888630	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{c8a88917-1f63-4ae8-a03f-d5f16b42dbf2}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465977,"updateDate":1520657465977,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","skinnable":false,"size":916263,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851888630	addons.manager	DEBUG	Registering startup change 'installed' for followonsearch@mozilla.com
+1579851888630	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1579851888632	addons.xpi	DEBUG	Calling bootstrap method install on followonsearch@mozilla.com version 0.9.6
+1579851888632	addons.xpi-utils	DEBUG	Make addon app-system-defaults:followonsearch@mozilla.com visible
+1579851888634	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{3b899109-bfd0-44ed-b502-2c804f555c2d}","location":"app-system-defaults","version":"0.9.6","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465977,"updateDate":1520657465977,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\followonsearch@mozilla.com.xpi","skinnable":false,"size":18625,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"66.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851891996	addons.manager	DEBUG	Registering startup change 'installed' for formautofill@mozilla.org
+1579851891996	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1579851892000	addons.xpi	DEBUG	Calling bootstrap method install on formautofill@mozilla.org version 1.0
+1579851892000	addons.xpi-utils	DEBUG	Make addon app-system-defaults:formautofill@mozilla.org visible
+1579851892000	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{f07291d0-58b0-468e-b862-24471bb78572}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","description":"Autofill forms with saved profiles","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465981,"updateDate":1520657465981,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\formautofill@mozilla.org.xpi","skinnable":false,"size":457636,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851892000	addons.manager	DEBUG	Registering startup change 'installed' for onboarding@mozilla.org
+1579851892000	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1579851892004	addons.xpi	DEBUG	Calling bootstrap method install on onboarding@mozilla.org version 1.0
+1579851892004	addons.xpi-utils	DEBUG	Make addon app-system-defaults:onboarding@mozilla.org visible
+1579851892004	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{c333c023-f489-41e7-a73d-be36861d1640}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465985,"updateDate":1520657465985,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\onboarding@mozilla.org.xpi","skinnable":false,"size":566882,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851892004	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1579851892004	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1579851892006	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 25.0.0
+1579851892006	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1579851892006	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{293f2f5d-e1b5-4805-a5ec-187cda68f370}","location":"app-system-defaults","version":"25.0.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465992,"updateDate":1520657465992,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","skinnable":false,"size":994512,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851896178	addons.manager	DEBUG	Registering startup change 'installed' for shield-recipe-client@mozilla.org
+1579851896178	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1579851896182	addons.xpi	DEBUG	Calling bootstrap method install on shield-recipe-client@mozilla.org version 80
+1579851896184	addons.xpi-utils	DEBUG	Make addon app-system-defaults:shield-recipe-client@mozilla.org visible
+1579851896184	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{7eb06063-6047-494d-acb0-cda0cf782dba}","location":"app-system-defaults","version":"80","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465994,"updateDate":1520657465994,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":365967,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851896184	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1579851896184	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1579851896186	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1579851896186	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1579851896186	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{367363f9-68db-4ef9-941d-35cd15c08091}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465995,"updateDate":1520657465995,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"size":9266,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851896188	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1579851896188	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{4dab96e5-8fad-4aa5-96b7-c3abc6de6b64}","location":"app-global","version":"59.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465956,"updateDate":1520657465956,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":3010,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.0"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851900460	addons.xpi	DEBUG	Updating XPIState for {"id":"activity-stream@mozilla.org","syncGUID":"{4d5e381a-6c8e-4280-8fc5-cf7e10979dc0}","location":"app-system-defaults","version":"2018.02.17.0026-173e2795","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Activity Stream","description":"A rich visual history feed and a reimagined home page make it easier than ever to find exactly what you're looking for in Firefox.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465971,"updateDate":1520657465971,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\activity-stream@mozilla.org.xpi","skinnable":false,"size":2766941,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851900460	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{02cf7fae-c259-4804-9992-d69f5004dd77}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465972,"updateDate":1520657465972,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","skinnable":false,"size":8486,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851900460	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{c8a88917-1f63-4ae8-a03f-d5f16b42dbf2}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465977,"updateDate":1520657465977,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","skinnable":false,"size":916263,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851900462	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{3b899109-bfd0-44ed-b502-2c804f555c2d}","location":"app-system-defaults","version":"0.9.6","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465977,"updateDate":1520657465977,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\followonsearch@mozilla.com.xpi","skinnable":false,"size":18625,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"66.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851905364	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{f07291d0-58b0-468e-b862-24471bb78572}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","description":"Autofill forms with saved profiles","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465981,"updateDate":1520657465981,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\formautofill@mozilla.org.xpi","skinnable":false,"size":457636,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851905364	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{c333c023-f489-41e7-a73d-be36861d1640}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465985,"updateDate":1520657465985,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\onboarding@mozilla.org.xpi","skinnable":false,"size":566882,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851905364	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{293f2f5d-e1b5-4805-a5ec-187cda68f370}","location":"app-system-defaults","version":"25.0.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465992,"updateDate":1520657465992,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","skinnable":false,"size":994512,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851905364	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{7eb06063-6047-494d-acb0-cda0cf782dba}","location":"app-system-defaults","version":"80","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465994,"updateDate":1520657465994,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":365967,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],Unable to read VR Path Registry from C:\Users\YK05GG\AppData\Local\openvr\openvrpaths.vrpath
+"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851914384	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{367363f9-68db-4ef9-941d-35cd15c08091}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465995,"updateDate":1520657465995,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"size":9266,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851914386	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{4dab96e5-8fad-4aa5-96b7-c3abc6de6b64}","location":"app-global","version":"59.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465956,"updateDate":1520657465956,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":3010,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.0"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851914386	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1579851914386	addons.xpi-utils	DEBUG	Updating add-on states
+1579851914390	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1579851914392	addons.xpi	DEBUG	Calling bootstrap method startup on activity-stream@mozilla.org version 2018.02.17.0026-173e2795
+1579851914394	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1579851914394	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1579851914396	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1579851914396	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1579851914410	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1579851914410	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.6
+1579851914410	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1579851914412	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1579851914412	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1579851914412	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 1.0
+1579851918676	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1579851918676	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 25.0.0
+1579851918676	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mo2020-01-24 13:15:23:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+zilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+157985Firefox Launched
+1918678	aStep:1   | Object: Browser | Action: Open | Input: @https://javaspringbootinsightscits.azurewebsites.net/ | Conditon:  | @24-jan-2020 13:15:23.023
+ddons.xpi	DEBUG	Calling bootstrap method startup on shield-recipe-client@mozilla.org version 80
+1579851918684	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1579851918684	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1579851918688	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1579851918688	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1579851918688	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1579851918688	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1579851918688	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1579851918688	addons.manager	DEBUG	Starting provider: GMPProvider
+1579851918704	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1579851918704	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1579851918704	addons.manager	DEBUG	Starting provider: PluginProvider
+1579851918704	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1579851918704	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1579851918706	addons.manager	DEBUG	Completed startup sequence
+1579851918836	Marionette	INFO	Enabled via --marionette
+1579851919836	addons.repository	DEBUG	No addons.json found.
+1579851919862	addons.manager	DEBUG	Starting provider: [DONE]   | Opened Url: https://javaspringbootinsightscits.azurewebsites.net/P
+r
+===================================================================================================
+
+Step:2   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @24-jan-2020 13:15:25.025e
+viousExperimentProvider
+1579851919862	addons.manager	DEBUG	Registering shutdown blocker[DONE]   | Page load completed in stipulated time 
+
+===================================================================================================
+f
+oStep:3   | Object: Browser | Action: maximize | Input:  | Conditon:  | @24-jan-2020 13:15:25.025r
+ PreviousExperimentProvider
+1579851919862	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1579851920052	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 24
+1579851920268	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1579851920268	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1579851920268	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1579851920268	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1579851920268	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1579851920268	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1579851920268	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1579851920268	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1579851920268	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1579851920270	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1579851920270	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1579851920270	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1579851920270	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1579851920270	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1579851920270	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1579851920270	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1579851922806	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1579851922806	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1579851922808	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1579851922808	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1579851922808	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1579851923044	Marionette	INFO	Listening on port 51991
+1579851923518	Marionette	WARN	TLS certificate errors will be ignored for this session
+[DONE]   |  Window is maximized 
+
+===================================================================================================
+
+Step:4   | Object: JHipster bug tracker | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:15:28.028
+Using @link_text [JHipster bug tracker], Object 'JHipster bug tracker' Found in 44 ms
+[PASS]   | Element [JHipster bug tracker] is Present
+
+===================================================================================================
+
+2020-01-24 13:15:28:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:5   | Object: JHipster bug tracker | Action: Click | Input:  | Conditon:  | @24-jan-2020 13:15:29.029
+Using @link_text [JHipster bug tracker], Object 'JHipster bug tracker' Found in 7 ms
+[DONE]   | Clicking on JHipster bug tracker
+
+===================================================================================================
+
+Step:6   | Object: Sign in | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:15:29.029
+Using @link_text [Sign in], Object 'Sign in' Found in 31 ms
+[PASS]   | Element [Sign in] is Present
+
+===================================================================================================
+
+2020-01-24 13:15:29:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:7   | Object: Sign up | Action: assertElementPresent | Input:  | Conditon:  | @24-jan-2020 13:15:30.030
+Using @type [a], Object 'Sign up' Found in 39 ms
+[PASS]   | Element [Sign up] is Present
+
+===================================================================================================
+
+2020-01-24 13:15:30:01S +0530 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+1579851931528	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1579851931530	addons.xpi	DEBUG	Calling bootstrap method shutdoJavaScript error: resource:///modules/ContentMetaHandler.jsm, line 156: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIMessageSender.sendAsyncMessage]
+wn on shield-recipe-client@mozilla.org version 80
+1579851931530	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 25.0.0
+1579851931536	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1579851931540	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1579851931540	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.6
+1579851931540	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1579851931542	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1579851931542	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.02.17.0026-173e2795
+1579851931782	addons.manager	DEBUG	shutdown
+1579851931782	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1579851931782	addons.xpi	DEBUG	shutdown
+1579851931782	addons.xpi-utils	DEBUG	shutdown
+1579851931782	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1579851931782	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1579851931782	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1579851931782	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1579851931788	addons.manager	DEBUG	Async provider shutdown done
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+2020-01-24 13:15:35:01S +0530 [SEVERE] org.openqa.selenium.os.UnixProcess destroy:Unable to kill process with PID 1260
+
+---------------------------------------------------
+Testcase Name        : Secnario2_JHipsterLinks:TestCase3_JHipsterBugTracker
+Executed Steps       : 7
+Passed Steps         : 7
+Failed Steps         : 0
+Time Taken           : 00:00:51
+-----------------------------------------------------
+
+Running Iteration 1
+Launching Firefox
+Launching Local Driver
+2020-01-24 13:15:35:01S +0530 [INFO] org.openqa.selenium.firefox.FirefoxOptions toCapabilities:Preferring the firefox binary in these options (C:\Program Files\Mozilla Firefox\Firefox.exe rather than C:/Program Files/Mozilla Firefox/Firefox.exe)
+2020-01-24 13:15:35:01S +0530 [INFO] org.openqa.selenium.firefox.FirefoxOptions toCapabilities:Preferring the firefox binary in these options (C:\Program Files\Mozilla Firefox\Firefox.exe rather than C:/Program Files/Mozilla Firefox/Firefox.exe)
+1579851937434	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\Firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YK05GG\\AppData\\Local\\Temp\\rust_mozprofile.dyHrATqC0NHo"
+1579851938060	addons.manager	DEBUG	Application has been upgraded
+1579851938084	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1579851938086	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1579851938124	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1579851938124	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1579851938126	addons.manager	DEBUG	Starting provider: XPIProvider
+1579851938126	addons.xpi	DEBUG	startup
+1579851938126	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1579851938126	addons.xpi	INFO	Removing all system add-on upgrades.
+1579851938126	addons.xpi	DEBUG	checkForChanges
+1579851938128	addons.xpi	DEBUG	Loaded add-on state: ${}
+1579851938128	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1579851938128	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1579851938128	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1579851938128	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1579851938128	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1579851938128	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1579851938128	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1579851938128	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1579851938128	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1579851938130	addons.xpi	DEBUG	New add-on activity-stream@mozilla.org in app-system-defaults
+1579851938130	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1579851938130	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1579851938132	addons.xpi	DEBUG	New add-on followonsearch@mozilla.com in app-system-defaults
+1579851938132	addons.xpi	DEBUG	New add-on formautofill@mozilla.org in app-system-defaults
+1579851938132	addons.xpi	DEBUG	New add-on onboarding@mozilla.org in app-system-defaults
+1579851938134	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1579851938134	addons.xpi	DEBUG	New add-on shield-recipe-client@mozilla.org in app-system-defaults
+1579851938134	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1579851938134	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1579851938134	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1579851938136	addons.xpi	DEBUG	getInstallState changed: true, state: {}
+1579851938136	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1579851938140	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\YK05GG\AppData\Local\Temp\rust_mozprofile.dyHrATqC0NHo\extensions.json
+1579851938142	addons.xpi-utils	DEBUG	New add-on activity-stream@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1579851938166	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+1579851938168	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1579851938174	addons.xpi-utils	DEBUG	New add-on followonsearch@mozilla.com installed in app-system-defaults
+1579851938178	addons.xpi-utils	DEBUG	New add-on formautofill@mozilla.org installed in app-system-defaults
+1579851938182	addons.xpi-utils	DEBUG	New add-on onboarding@mozilla.org installed in app-system-defaults
+1579851938184	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1579851938190	addons.xpi-utils	DEBUG	New add-on shield-recipe-client@mozilla.org installed in app-system-defaults
+1579851938194	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1579851938210	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1579851938214	addons.manager	DEBUG	Registering startup change 'installed' for activity-stream@mozilla.org
+1579851938220	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1579851938222	addons.xpi	DEBUG	Calling bootstrap method install on activity-stream@mozilla.org version 2018.02.17.0026-173e2795
+1579851938224	addons.xpi-utils	DEBUG	Make addon app-system-defaults:activity-stream@mozilla.org visible
+1579851938224	addons.xpi	DEBUG	Updating XPIState for {"id":"activity-stream@mozilla.org","syncGUID":"{2e5f1fd7-6130-4203-91b3-a3c4b45f8767}","location":"app-system-defaults","version":"2018.02.17.0026-173e2795","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Activity Stream","description":"A rich visual history feed and a reimagined home page make it easier than ever to find exactly what you're looking for in Firefox.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465971,"updateDate":1520657465971,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\activity-stream@mozilla.org.xpi","skinnable":false,"size":2766941,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851939770	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1579851939770	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1579851939772	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1579851939772	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1579851939772	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{ed0546cb-fcc6-4ac6-b501-fa41a9a3d5d0}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465972,"updateDate":1520657465972,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","skinnable":false,"size":8486,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851939772	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1579851939774	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1579851939778	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1579851939778	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1579851939778	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{3505330e-eb3a-436f-a86b-386655fbf17e}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465977,"updateDate":1520657465977,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","skinnable":false,"size":916263,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851939778	addons.manager	DEBUG	Registering startup change 'installed' for followonsearch@mozilla.com
+1579851939778	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1579851939782	addons.xpi	DEBUG	Calling bootstrap method install on followonsearch@mozilla.com version 0.9.6
+1579851939782	addons.xpi-utils	DEBUG	Make addon app-system-defaults:followonsearch@mozilla.com visible
+1579851939782	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{1973ea0d-8a92-42ed-a2ba-aa7da8cd80e0}","location":"app-system-defaults","version":"0.9.6","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465977,"updateDate":1520657465977,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\followonsearch@mozilla.com.xpi","skinnable":false,"size":18625,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"66.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851942978	addons.manager	DEBUG	Registering startup change 'installed' for formautofill@mozilla.org
+1579851942978	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1579851942980	addons.xpi	DEBUG	Calling bootstrap method install on formautofill@mozilla.org version 1.0
+1579851942982	addons.xpi-utils	DEBUG	Make addon app-system-defaults:formautofill@mozilla.org visible
+1579851942982	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{a092f902-53e5-4d1c-a9e0-5ff733e6dc89}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","description":"Autofill forms with saved profiles","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465981,"updateDate":1520657465981,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\formautofill@mozilla.org.xpi","skinnable":false,"size":457636,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851942982	addons.manager	DEBUG	Registering startup change 'installed' for onboarding@mozilla.org
+1579851942982	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1579851942984	addons.xpi	DEBUG	Calling bootstrap method install on onboarding@mozilla.org version 1.0
+1579851942986	addons.xpi-utils	DEBUG	Make addon app-system-defaults:onboarding@mozilla.org visible
+1579851942986	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{97c94842-8c7a-4f98-82eb-197a4ca69e60}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465985,"updateDate":1520657465985,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\onboarding@mozilla.org.xpi","skinnable":false,"size":566882,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851942986	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1579851942986	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1579851942990	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 25.0.0
+1579851942990	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1579851942990	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{b7fd4cb9-b2ea-4303-a5d8-ffa398266a96}","location":"app-system-defaults","version":"25.0.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465992,"updateDate":1520657465992,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","skinnable":false,"size":994512,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851947350	addons.manager	DEBUG	Registering startup change 'installed' for shield-recipe-client@mozilla.org
+1579851947350	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1579851947354	addons.xpi	DEBUG	Calling bootstrap method install on shield-recipe-client@mozilla.org version 80
+1579851947354	addons.xpi-utils	DEBUG	Make addon app-system-defaults:shield-recipe-client@mozilla.org visible
+1579851947354	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{fdf8d410-f2d1-47fc-8660-f2eb60545864}","location":"app-system-defaults","version":"80","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465994,"updateDate":1520657465994,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":365967,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851947354	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1579851947354	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1579851947356	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1579851947356	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1579851947356	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{43f8999d-3bbb-472a-9a2d-8969d4bf4ade}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465995,"updateDate":1520657465995,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"size":9266,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851947356	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1579851947356	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{247322bd-88dd-4d64-8c33-b4528feecc97}","location":"app-global","version":"59.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1520657465956,"updateDate":1520657465956,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":3010,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.0"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851951292	addons.xpi	DEBUG	Updating XPIState for {"id":"activity-stream@mozilla.org","syncGUID":"{2e5f1fd7-6130-4203-91b3-a3c4b45f8767}","location":"app-system-defaults","version":"2018.02.17.0026-173e2795","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Activity Stream","description":"A rich visual history feed and a reimagined home page make it easier than ever to find exactly what you're looking for in Firefox.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465971,"updateDate":1520657465971,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\activity-stream@mozilla.org.xpi","skinnable":false,"size":2766941,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851951292	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{ed0546cb-fcc6-4ac6-b501-fa41a9a3d5d0}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465972,"updateDate":1520657465972,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","skinnable":false,"size":8486,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851951294	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{3505330e-eb3a-436f-a86b-386655fbf17e}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465977,"updateDate":1520657465977,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","skinnable":false,"size":916263,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851951294	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{1973ea0d-8a92-42ed-a2ba-aa7da8cd80e0}","location":"app-system-defaults","version":"0.9.6","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465977,"updateDate":1520657465977,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\followonsearch@mozilla.com.xpi","skinnable":false,"size":18625,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"66.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851955250	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{a092f902-53e5-4d1c-a9e0-5ff733e6dc89}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","description":"Autofill forms with saved profiles","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465981,"updateDate":1520657465981,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\formautofill@mozilla.org.xpi","skinnable":false,"size":457636,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851955250	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{97c94842-8c7a-4f98-82eb-197a4ca69e60}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465985,"updateDate":1520657465985,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\onboarding@mozilla.org.xpi","skinnable":false,"size":566882,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851955250	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{b7fd4cb9-b2ea-4303-a5d8-ffa398266a96}","location":"app-system-defaults","version":"25.0.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465992,"updateDate":1520657465992,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","skinnable":false,"size":994512,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851955250	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{fdf8d410-f2d1-47fc-8660-f2eb60545864}","location":"app-system-defaults","version":"80","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465994,"updateDate":1520657465994,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":365967,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependenUnable to read VR Path Registry from C:\Users\YK05GG\AppData\Local\openvr\openvcrpaths.vrpath
+ies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851959654	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{43f8999d-3bbb-472a-9a2d-8969d4bf4ade}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465995,"updateDate":1520657465995,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"size":9266,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851959654	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{247322bd-88dd-4d64-8c33-b4528feecc97}","location":"app-global","version":"59.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1520657465956,"updateDate":1520657465956,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":3010,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"59.0","maxVersion":"59.0"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1579851959654	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1579851959656	addons.xpi-utils	DEBUG	Updating add-on states
+1579851959662	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1579851959666	addons.xpi	DEBUG	Calling bootstrap method startup on activity-stream@mozilla.org version 2018.02.17.0026-173e2795
+1579851959666	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1579851959668	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1579851959668	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1579851959672	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1579851959680	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1579851959682	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.6
+1579851959682	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1579851959682	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1579851959684	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1579851959684	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 1.0
+1579851964560	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1579851964562	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 25.0.0
+1579851964562	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1579851964562	addons.xpi	DEBUG	Calling bootstrap method startup on shield-recipe-client@mozilla.org version 80
+1579851964570	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1579851964570	addons.xpi	DEBUG	Calling bootstrap method startup on webcompaJt@moziavaScript error: resource://gre/modules/osfile/osfilella._async_front.jsm, line 411: Error: OS.File has been shut down. Rejecting posorg version 1.1
+1579851964572	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1579851964572	t to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/osfileaddons.mana/osfile_ger	DEBUG	Provider finished startup: XPIProvider
+1579851964572	addons.manager	DEBUG	Starting provider: LightweightThemeManaasync_front.jsm, line 411: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldesger
+1579851964572	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1579851964572	addons.manager	Dt profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+2020-01-24 13:16:10:01S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:Failed to decode response from marionette
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WPU8V9011740', ip: '10.254.37.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 
+org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WPU8V9011740', ip: '10.254.37.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:178)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:167)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:157)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:151)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:121)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[DEBUG]   | Failed to decode response from marionette
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WPU8V9011740', ip: '10.254.37.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 
+
+===================================================================================================
+E
+B2020-01-24 13:16:11:01S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler updateTestLog:null
+java.lang.NullPointerException
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:103)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:134)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:105)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:188)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:176)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:133)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+UG	Provider finished startup: LightweightThemeManager
+1579851
+---------------------------------------------------
+Testcase Name        : Secnario2_JHipsterLinks:TestCase4_JHipsterStackOverflow
+9645Executed Steps       : 1
+Passed Steps         : 0
+74	aFailed Steps         : 0
+Time Taken           : 00:00:36
+ddon-----------------------------------------------------
+
+s.manager	DEBUG	Starting provider: GMPProvider
+1579851964588	addons.manager	
+---------------------------------------------------DEBU
+Testcase Name        : Secnario2_JHipsterLinks:TestCase5_JHipsterPublicChat
+Executed Steps       : 0G	Re
+Passed Steps         : 0
+Failed Steps         : 0g
+Time Taken           : 00:00:00iste
+-----------------------------------------------------
+r
+ing shutdown blocker for GMPProvid
+---------------------------------------------------e
+rTestcase Name        : Secnario2_JHipsterLinks:TestCase6_JHipsterFollow
+
+Executed Steps       : 01
+5Passed Steps         : 07
+9Failed Steps         : 08
+5Time Taken           : 00:00:001
+9-----------------------------------------------------
+6
+4588Run Finished on Fri Jan 24 13:16:12 IST 2020
+	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1579851964588	addons.manager	DEBUG	Starting provider: PluginProvider
+1579851964588	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1579851964588	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1579851964588	addons.manager	DEBUG	Completed startup sequence
+1579851964748	Marionette	INFO	E-----------------------------------------------------n
+aExecutionDate        : 24-jan-2020 13-12-06b
+lExecuted TestCases   : 10e
+d Passed TestCases     : 5v
+iFailed TestCases     : 5a
+ -Time Taken           : 00:04:06-
+mReportPath           : file:///H:\CITS\cognizant-intelligent-test-scripter-1.2\Projects\javaHipsterDemoProject_Grid\Results\TestExecution\jHipsterRelease1\jHipsterCitsTestSet1\24-jan-2020 13-12-06\summary.htmla
+ri-----------------------------------------------------o
+nette
+1579851965668	addons.repository	DEBUG	No addons.json found.
+1579851965772	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+2020-01-24 13:16:13:01S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.impl.html.HtmlSummaryHandler createLatest:Failed to copy full contents from 'H:\CITS\cognizant-intelligent-test-scripter-1.2\Projects\javaHipsterDemoProject_Grid\Results\TestExecution\jHipsterRelease1\jHipsterCitsTestSet1\24-jan-2020 13-12-06\console.txt' to 'H:\CITS\cognizant-intelligent-test-scripter-1.2\Projects\javaHipsterDemoProject_Grid\Results\TestExecution\jHipsterRelease1\jHipsterCitsTestSet1\Latest\console.txt' Expected length: 155951 Actual: 155940
+java.io.IOException: Failed to copy full contents from 'H:\CITS\cognizant-intelligent-test-scripter-1.2\Projects\javaHipsterDemoProject_Grid\Results\TestExecution\jHipsterRelease1\jHipsterCitsTestSet1\24-jan-2020 13-12-06\console.txt' to 'H:\CITS\cognizant-intelligent-test-scripter-1.2\Projects\javaHipsterDemoProject_Grid\Results\TestExecution\jHipsterRelease1\jHipsterCitsTestSet1\Latest\console.txt' Expected length: 155951 Actual: 155940
+	at org.apache.commons.io.FileUtils.doCopyFile(FileUtils.java:1164)
+	at org.apache.commons.io.FileUtils.doCopyDirectory(FileUtils.java:1446)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1388)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1268)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1237)
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlSummaryHandler.createLatest(HtmlSummaryHandler.java:266)
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlSummaryHandler.finalizeReport(HtmlSummaryHandler.java:205)
+	at com.cognizant.cognizantits.engine.reporting.SummaryReport.finalizeReport(SummaryReport.java:152)
+	at com.cognizant.cognizantits.engine.core.Control.endExecution(Control.java:189)
+	at com.cognizant.cognizantits.engine.core.Control.startRun(Control.java:172)
+	at com.cognizant.cognizantits.engine.core.Control.start(Control.java:58)
+	at com.cognizant.cognizantits.engine.core.Control.call(Control.java:67)
+	at com.cognizant.cognizantits.ide.main.mainui.EngineConfig.runProject(EngineConfig.java:46)
+	at com.cognizant.cognizantits.ide.main.mainui.components.testexecution.testset.TestsetComponent$18.run(TestsetComponent.java:278)
+	at java.lang.Thread.run(Unknown Source)
+
+1579851965772	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1579851965772	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1579851965906	addons.xpi-utils	DEBUG	XPI Database 
